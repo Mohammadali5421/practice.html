@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration</title>
+    <style>
+        .courseReg  {
+            border: 2px solid black;
+            padding: 15px; width: 500px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        #inp {
+            width: 450px; height: 30px;
+            border-radius: 2px; margin: 5px;
+
+        }
+        label {
+            margin: 5px;
+        }
+        #course {
+             width: 450px; height: 40px;
+            border-radius: 2px; margin: 5px;
+        }
+        .pref {
+            outline:  1px solid black;
+            border-radius: 2px  ;
+            margin: 5px; width: 450px;
+        }
+    </style>
+</head>
+<body>
+    <div class="courseReg">
+
+        <h1 style="margin: 5px; text-align: center;">Course Registration</h1>
+
+        <form id="tt">
+            <label for="name">Student Name</label><br>
+            <input id="inp" type="text" required placeholder="Enter your full name"><br>
+            <label for="email">Email Address</label><br>
+            <input id="inp" type="email" required placeholder="name@example.com">
+            <label for="password">Password</label><br>
+            <input id="inp" type="password" required placeholder="Atleast 8 characters">
+            <label for="number">Phone Number</label><br>
+            <input id="inp" type="number" required placeholder="10-digits Mobile Number">
+            <label for="for value">Select Course</label><br>
+
+            <select name="course" id="course" >
+                <option value="course">Btech in CSE and AI</option>
+                <option value="course">Bsc in Managment</option>
+                <option value="course">Bsc in Health Care</option>
+            </select>
+            
+            <div class="pref">
+            <label for="Prefering Learning Mode" >Prefering Learning Mode</label><br>
+            <label for="Online">Online: </label>
+            <input type="radio" name="Prefrence" required>
+            <label for="Online">Offline: </label>
+            <input type="radio" name="Prefrence" required>
+            </div>
+            <input type="checkbox" required>
+            <label for="checkbox">I Accept the Terms and Conditions</label>
+            <label for="submit"></label><br>
+            <input style="background-color: skyblue; color:
+             white; font-family: Arial, Helvetica,
+              sans-serif; border-radius: 8px; margin: 5px; width: 70px; height: 40px;" type="submit" 
+             required>
+
+             <label for="reset"></label>
+            <input style="background-color: grey; color:
+             white; font-family: Arial, Helvetica,
+              sans-serif; border-radius: 8px; margin: 5px; width: 70px; height: 40px;" type="reset" 
+             required>
+
+
+        </form>
+
+    </div>
+    
+</body>
+</html>

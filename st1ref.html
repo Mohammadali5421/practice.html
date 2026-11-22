@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+<style>
+    div {
+        margin: 5px;
+        padding: 5px;
+        width: 400px;
+        border: 3px solid lightslategrey ; outline: 2px solid black;
+    }
+</style>
+</head>
+<body>
+    <div>
+  <h2><b>Contact Us</b></h2>
+
+  <form action="#" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="subject">Subject:</label><br>
+    <input type="text" id="subject" name="subject" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+    <input style="background-color: green;" type="submit" value="Submit">
+  </form>
+    </div>
+</body>
+</html>
